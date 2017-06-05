@@ -4,10 +4,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport">
-<script>
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"</script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -93,10 +93,12 @@
         <div id="asset" class="gallery no-title">
             <div class="container">
                 <div class="col-md-12">
-                    <a href="#" class"pop">
+                    <a href="#" class="pop">
                         <img src="./portraits/bill.jpg" class="image-height-300 image-border-style image-responsive">
                     </a>
+                    <a href="#" class="pop">
                         <img src="./portraits/ana-mud.jpg" class="image-height-300 image-border-style image-responsive">
+                    </a>
                         <img src="./portraits/bones.jpg" class="image-height-300 image-border-style image-responsive">
                         <img src="./portraits/corp.jpg" class="image-height-300 image-border-style image-responsive">
                         <img src="./portraits/liz.jpg" class="image-height-300 image-border-style image-responsive">
@@ -116,6 +118,7 @@
             </div>
 
         </div>
+        </div>
     <!--IMAGES ENDS-->
      <!--Button trigger modal Replace Button with click!-->
 <button type="img-scr" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -125,13 +128,15 @@
 <!-- Modal -->
 
 <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">              
       <div class="modal-body">
       	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
         <img src="" class="imagepreview" style="width: 100%;" >
       </div>
     </div>
-<script>scr="main.js";</script>
+  </div>
+</div>
+<script src="main.js"></script>
     </body>
 </html>
