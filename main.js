@@ -6,18 +6,28 @@
 // });	
 
 $(document).ready(function() {
-	$(".image-responsive").fancybox({
-		minWidth:"800px",
-		minHeight:"800px",
-		autoCenter:true, 	
-		aspectRatio:true,
-		modal:true,
-
+	$(".fancybox").fancybox({
+		Width: "100%",
+		Height: "100%",
+		autoCenter: true, 	
+		aspectRatio: true,
+		padding: 0,
+		helpers: {
+			overlay: {
+				closeClick: true
+			}
+		}
 	});
 });
 
+
+// Add this to custom CSS for Fancybox 
+// .fancybox-next {
+//     right: -32px;
+// }
+
 window.sr = ScrollReveal({ duration: 2000 });
 sr.reveal('.reveal-flow', {
-
+	
 }, 50);
 
