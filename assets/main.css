@@ -38,3 +38,35 @@
     .dropdown li{
         padding-top: 10px;
     }
+    .header{
+        transition: top 0.2s ease-in-out;
+    }
+    .body{
+        
+        background: linear-gradient(308deg, #ff4b1f, #1fddff);
+        background-size: 400% 400%;
+        -webkit-animation: AnimationName 30s ease infinite;
+        -moz-animation: AnimationName 30s ease infinite;
+        -o-animation: AnimationName 30s ease infinite;
+        animation: AnimationName 30s ease infinite;
+        @-webkit-keyframes AnimationName {
+            0%{background-position:0% 94%}
+            50%{background-position:100% 7%}
+            100%{background-position:0% 94%}
+        }
+        @-moz-keyframes AnimationName {
+            0%{background-position:0% 94%}
+            50%{background-position:100% 7%}
+            100%{background-position:0% 94%}
+        }
+        @-o-keyframes AnimationName {
+            0%{background-position:0% 94%}
+            50%{background-position:100% 7%}
+            100%{background-position:0% 94%}
+        }
+        @keyframes AnimationName {
+            0%{background-position:0% 94%}
+            50%{background-position:100% 7%}
+            100%{background-position:0% 94%}
+        }
+    }
