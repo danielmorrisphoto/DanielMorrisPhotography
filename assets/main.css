@@ -41,7 +41,8 @@
     .header{
         transition: top 0.2s ease-in-out;
     }
-    .body{
+    
+    /*.body{
         
         background: linear-gradient(308deg, #ff4b1f, #1fddff);
         background-size: 400% 400%;
@@ -69,4 +70,4 @@
             50%{background-position:100% 7%}
             100%{background-position:0% 94%}
         }
-    }
+    }*/
